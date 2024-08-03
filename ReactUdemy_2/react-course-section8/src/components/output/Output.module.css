@@ -1,0 +1,26 @@
+.output{
+    background-color: white;
+    width: 32%;
+    height: auto;
+    margin: 40px auto;
+    border-radius: 12px; 
+    box-shadow: 5px 5px rgb(43, 47, 48);
+    padding: 15px;
+}
+
+.output input{
+    width: 100%;
+    list-style-type: none;
+    margin-top: 10px;  
+    font-size: large;
+}
+
+.output button{
+    background-color: #51125ccc;
+    border: none;
+    color: white;
+    padding: 12px 14px;
+    display: inline-block;
+    margin-top: 10px;
+    overflow-x:auto;
+}

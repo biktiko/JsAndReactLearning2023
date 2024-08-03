@@ -1,0 +1,48 @@
+//for new project =>
+npx create-react-app ProjectName
+cd ProjectName
+npm start
+
+//for node modules if need install =>
+npm install 
+
+//for styled components =>
+
+/In react project folder =>
+npm install --save styled-components 
+/In file, where it needs =>
+import styled from 'styled-components'  
+/remove it=> (?) not checked
+npm i styled-components 
+
+
+//redux
+1) 1.npm init
+   2.npm install redux
+   In js file (simple)
+   
+   const redux = require("redux");
+
+   const counterReducer = (state = { counter: 0}, action) => {
+    return 
+        counter: state.counter + 1 
+   };
+   const store= redux.createStore(counterReducer);
+   console.log(store.getState());
+   const counterSubscriber =  () => {
+      const latestState = store.getState();
+      console.log(latestState);
+   }
+   store.subscribe(counterSubscriber);
+   
+2)npm install redux react-redux
+import {SOMETHING} from "redux"
+
+//redux toolkit
+1. npm install @reduxjs/toolkit
+2. remove redux from package.json
+3. import {createSlice, configureStore} from "@reduxjs/toolkit"
+
+EXAMPLE
+C:\WorkPlace\Programming\ReduxUdemy\redux-starting-project-section18\src\store\index.js
+

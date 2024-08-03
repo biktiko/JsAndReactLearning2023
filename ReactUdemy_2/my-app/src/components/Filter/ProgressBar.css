@@ -1,0 +1,26 @@
+.progressBar
+{
+    display: inline-block;
+    margin-left: 5%;
+}
+.loadBar
+{
+     width:25px;
+     height:200px;
+     background-color:rgba(147, 114, 160, 0.623);
+     border:1px solid blue;
+     position:relative; 
+     border-radius: 15px;
+     display: inline-block;
+}
+.bar
+{
+    width:100%;
+    display:block;        
+    font-family:arial;
+    font-size:12px; 
+    background-color:#133066;
+    color:#fff;       
+    position:absolute;
+    bottom:0;        
+}

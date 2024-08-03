@@ -1,0 +1,39 @@
+.invalid {
+    background-color: white;
+    width: 120%;
+    height: 200px;
+    border-radius: 12px;
+    box-shadow: 5px 5px rgb(43 47 48);
+    position: relative;
+    margin-top: -80px;
+}
+
+.invalidTop{
+    background-color: #51125ccc;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+.invalid h3{
+    color:white;
+    padding: 15px;
+}
+
+.invalid p{
+    padding: 20px;
+}
+
+
+.invalid button{
+    background-color: #51125ccc; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 80%;
+}
+
